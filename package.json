@@ -1,0 +1,45 @@
+{
+  "name": "@interaktiv/volto-richresults",
+  "version": "2.0.0",
+  "description": "Volto addon for managing Google Rich Results (structured data / schema.org JSON-LD) in Plone 6",
+  "main": "src/index.ts",
+  "author": "Interaktiv GmbH <support@interaktiv.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/interaktivgmbh/volto-richresults#readme",
+  "keywords": [
+    "volto",
+    "volto-addon",
+    "plone",
+    "plone6",
+    "react",
+    "rich-results",
+    "schema.org",
+    "json-ld",
+    "seo",
+    "structured-data",
+    "google"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "release": "release-it",
+    "prettier": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
+    "prettier:fix": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx src",
+    "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx --fix src"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@plone/volto": "^18.0.0"
+  },
+  "devDependencies": {
+    "@plone/scripts": "*",
+    "release-it": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interaktivgmbh/volto-richresults.git"
+  },
+  "bugs": {
+    "url": "https://github.com/interaktivgmbh/volto-richresults/issues"
+  }
+}

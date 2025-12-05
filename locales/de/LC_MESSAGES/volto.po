@@ -1,0 +1,1679 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: volto-richresults\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-14T14:44:44.586Z\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: German\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: volto\n"
+
+#. Default: "A brief summary of the dataset (50-5000 characters)"
+#: types/Dataset
+msgid "A brief summary of the dataset (50-5000 characters)"
+msgstr "Eine kurze Zusammenfassung des Datensatzes (50-5000 Zeichen)"
+
+#. Default: "A description of the event"
+#: types/Event
+msgid "A description of the event"
+msgstr "Eine Beschreibung der Veranstaltung"
+
+#. Default: "A description of the how-to"
+#: types/HowTo
+msgid "A description of the how-to"
+msgstr "Eine Beschreibung der Anleitung"
+
+#. Default: "A description of the research project"
+#: types/ResearchProject
+msgid "A description of the research project"
+msgstr "Eine Beschreibung des Forschungsprojekts"
+
+#. Default: "A descriptive name for the dataset"
+#: types/Dataset
+msgid "A descriptive name for the dataset"
+msgstr "Ein beschreibender Name für den Datensatz"
+
+#. Default: "A detailed description of the job"
+#: types/JobPosting
+msgid "A detailed description of the job"
+msgstr "Eine detailierte Beschreibung des Jobs"
+
+#. Default: "A short description of the article"
+#: types/Article
+msgid "A short description of the article"
+msgstr "Eine kurze Beschreibung des Artikels"
+
+#. Default: "A short description of the news article"
+#: types/NewsArticle
+msgid "A short description of the news article"
+msgstr "Eine kurze Beschreibung des Nachrichtenartikels"
+
+#. Default: "A short description of the organization"
+#: types/Organization
+msgid "A short description of the organization"
+msgstr "Eine kurze Beschreibung der Organisation"
+
+#. Default: "A short description of the web page"
+#: types/WebPage
+msgid "A short description of the web page"
+msgstr "Eine kurze Beschreibung der Webseite"
+
+#. Default: "A short description or bio of the person"
+#: types/Person
+msgid "A short description or bio of the person"
+msgstr "Eine kurze Beschreibung oder Bio der Person"
+
+#. Default: "A short title for this step (optional)"
+#: types/HowTo
+msgid "A short title for this step (optional)"
+msgstr "Ein kurzer Titel für diesen Schritt (optional)"
+
+#. Default: "About"
+#: types/WebPage
+msgid "About"
+msgstr "Thema"
+
+#. Default: "Accessible for Free"
+#: types/Dataset
+msgid "Accessible for Free"
+msgstr "Kostenlos zugänglich"
+
+#. Default: "Actions"
+#: components/RichResultsConfigWidget
+msgid "Actions"
+msgstr "Aktionen"
+
+#. Default: "Add"
+#: components/RichResultEditModal
+msgid "Add"
+msgstr "Hinzufügen"
+
+#. Default: "Add Content Type"
+#: components/RichResultsConfigWidget
+msgid "Add Content Type"
+msgstr "Contenttypen hinzufügen"
+
+#. Default: "Add Rich Result"
+#: components/RichResultsWidget
+msgid "Add Rich Result"
+msgstr "Rich Result hinzufügen"
+
+#. Default: "Add and configure Rich Results for this content"
+#: blocks/RichResultsBlock/Edit
+msgid "Add and configure Rich Results for this content"
+msgstr "Rich Results für diesen Inhalt hinzufügen und konfigurieren"
+
+#. Default: "Additional Information"
+#: types/ResearchProject
+#: types/WebPage
+msgid "Additional Information"
+msgstr "Zusätzliche Informationen"
+
+#. Default: "Address"
+#: types/Organization
+#: types/Person
+msgid "Address"
+msgstr "Adresse"
+
+#. Default: "Alternate Name"
+#: types/Dataset
+msgid "Alternate Name"
+msgstr "Alternativer Name"
+
+#. Default: "Amount"
+#: types/JobPosting
+msgid "Amount"
+msgstr "Höhe"
+
+#. Default: "Answer"
+#: types/FAQPage
+msgid "Answer"
+msgstr "Antwort"
+
+#. Default: "Applicant Location Requirements"
+#: types/JobPosting
+msgid "Applicant Location Requirements"
+msgstr "Standortanforderungen für Bewerber"
+
+#. Default: "Article"
+#: types/Article
+msgid "Article"
+msgstr "Artikel"
+
+#. Default: "Artists, musicians, or speakers participating"
+#: types/Event
+msgid "Artists, musicians, or speakers participating"
+msgstr "Teilnehmende Künstler, Musiker oder Sprecher"
+
+#. Default: "Author Name"
+#: types/WebPage
+msgid "Author Name"
+msgstr "Name des Autors"
+
+#. Default: "Author Type"
+#: types/NewsArticle
+#: types/WebPage
+msgid "Author Type"
+msgstr "Autorentyp"
+
+#. Default: "Author URL"
+#: types/WebPage
+msgid "Author URL"
+msgstr "Autoren-URL"
+
+#. Default: "Authors"
+#: types/Article
+#: types/NewsArticle
+#: types/WebPage
+msgid "Authors"
+msgstr "Autoren"
+
+#. Default: "Authors or originators of the dataset"
+#: types/Dataset
+msgid "Authors or originators of the dataset"
+msgstr "Autoren oder Urheber des Datensatzes"
+
+#. Default: "Authorship"
+#: types/WebPage
+msgid "Authorship"
+msgstr "Urheberschaft"
+
+#. Default: "Available Rich Result Types"
+#: components/RichResultsConfigWidget
+msgid "Available Rich Result Types"
+msgstr "Auswählbare Rich Result Typen"
+
+#. Default: "Cancel"
+#: components/RichResultEditModal
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. Default: "Cancelled"
+#: types/Event
+msgid "Cancelled"
+msgstr "Abgesagt"
+
+#. Default: "Canonical URL establishing dataset identity"
+#: types/Dataset
+msgid "Canonical URL establishing dataset identity"
+msgstr "Kanonische URL zur Identifikation des Datensatzes"
+
+#. Default: "City"
+#: types/Event
+#: types/JobPosting
+#: types/Organization
+#: types/Person
+msgid "City"
+msgstr "Stadt"
+
+#. Default: "Configure schema.org structured data for this content. This data will be rendered as JSON-LD in the page head."
+#: blocks/RichResultsBlock/Edit
+msgid "Configure schema.org structured data for this content. This data will be rendered as JSON-LD in the page head."
+msgstr "Konfigurieren Sie schema.org strukturierte Daten für diesen Inhalt. Diese Daten werden als JSON-LD im Seitenkopf gerendert."
+
+#. Default: "Contact"
+#: types/Organization
+#: types/Person
+msgid "Contact"
+msgstr "Kontaktperson"
+
+#. Default: "Contact email address"
+#: types/Organization
+#: types/Person
+msgid "Contact email address"
+msgstr "Kontaktperson Email Adresse"
+
+#. Default: "Contact telephone number"
+#: types/Organization
+#: types/Person
+msgid "Contact telephone number"
+msgstr "Kontaktperson Telefonnummer"
+
+#. Default: "Content Type"
+#: components/RichResultsConfigWidget
+msgid "Content Type"
+msgstr "Content Typ"
+
+#. Default: "Contractor"
+#: types/JobPosting
+msgid "Contractor"
+msgstr "Freiberuflich"
+
+#. Default: "Copyright Holder"
+#: types/WebPage
+msgid "Copyright Holder"
+msgstr "Urheberrechtsinhaber"
+
+#. Default: "Copyright Year"
+#: types/WebPage
+msgid "Copyright Year"
+msgstr "Copyright-Jahr"
+
+#. Default: "Countries where applicants must be located (e.g., Canada, Germany)"
+#: types/JobPosting
+msgid "Countries where applicants must be located (e.g., Canada, Germany)"
+msgstr "Länder die mögliche Standorte der Bewerber sind (z.B. Germany, Canada)"
+
+#. Default: "Country"
+#: types/Event
+#: types/JobPosting
+#: types/Organization
+#: types/Person
+msgid "Country"
+msgstr "Land"
+
+#. Default: "Country Name"
+#: types/JobPosting
+msgid "Country Name"
+msgstr "Name des Landes"
+
+#. Default: "Coverage"
+#: types/Dataset
+msgid "Coverage"
+msgstr "Abdeckung"
+
+#. Default: "Creators"
+#: types/Dataset
+msgid "Creators"
+msgstr "Ersteller"
+
+#. Default: "Creators & Funders"
+#: types/Dataset
+msgid "Creators & Funders"
+msgstr "Ersteller & Förderer"
+
+#. Default: "Currency"
+#: types/Event
+#: types/JobPosting
+msgid "Currency"
+msgstr "Währung"
+
+#. Default: "Currency code (e.g., EUR, USD)"
+#: types/Event
+msgid "Currency code (e.g., EUR, USD)"
+msgstr "Währungscode (z.B. EUR, USD)"
+
+#. Default: "Current availability of tickets"
+#: types/Event
+msgid "Current availability of tickets"
+msgstr "Aktuelle Verfügbarkeit der Tickets"
+
+#. Default: "Current status of the event"
+#: types/Event
+msgid "Current status of the event"
+msgstr "Aktueller Status der Veranstaltung"
+
+#. Default: "DOI or other persistent identifier (e.g., https://doi.org/10.1234/example)"
+#: types/Dataset
+msgid "DOI or other persistent identifier (e.g., https://doi.org/10.1234/example)"
+msgstr "DOI oder andere persistente Kennung (z.B. https://doi.org/10.1234/beispiel)"
+
+#. Default: "Data Catalog"
+#: types/Dataset
+msgid "Data Catalog"
+msgstr "Datenkatalog"
+
+#. Default: "Data Catalog URL"
+#: types/Dataset
+msgid "Data Catalog URL"
+msgstr "Datenkatalog-URL"
+
+#. Default: "Dataset"
+#: types/Dataset
+msgid "Dataset"
+msgstr "Datensatz"
+
+#. Default: "Date & Time"
+#: types/Event
+msgid "Date & Time"
+msgstr "Datum & Uhrzeit"
+
+#. Default: "Date Modified"
+#: types/Article
+#: types/NewsArticle
+#: types/WebPage
+msgid "Date Modified"
+msgstr "Datum der letzten Änderung"
+
+#. Default: "Date Posted"
+#: types/JobPosting
+msgid "Date Posted"
+msgstr "Datum des Ausschreibung"
+
+#. Default: "Date Published"
+#: types/Article
+#: types/NewsArticle
+#: types/WebPage
+msgid "Date Published"
+msgstr "Freigabedatum"
+
+#. Default: "Dates"
+#: types/Article
+#: types/NewsArticle
+#: types/WebPage
+msgid "Dates"
+msgstr "Datum"
+
+#. Default: "Default"
+#: blocks/RichResultsBlock/schema
+#: types/Article
+#: types/Dataset
+#: types/Event
+#: types/FAQPage
+#: types/HowTo
+#: types/JobPosting
+#: types/NewsArticle
+#: types/Organization
+#: types/Person
+#: types/ResearchProject
+#: types/WebPage
+msgid "Default"
+msgstr "Standard"
+
+#. Default: "Delete"
+#: components/RichResultsWidget
+msgid "Delete"
+msgstr "Löschen"
+
+#. Default: "Description"
+#: types/Article
+#: types/Dataset
+#: types/NewsArticle
+#: types/Organization
+#: types/Person
+msgid "Description"
+msgstr "Beschreibung"
+
+#. Default: "Details about the funding/grant"
+#: types/ResearchProject
+msgid "Details about the funding/grant"
+msgstr "Details zur Finanzierung/Förderung"
+
+#. Default: "Distribution"
+#: types/Dataset
+msgid "Distribution"
+msgstr "Verteilung"
+
+#. Default: "Download URL"
+#: types/Dataset
+msgid "Download URL"
+msgstr "Download-URL"
+
+#. Default: "Download locations and formats for the dataset"
+#: types/Dataset
+msgid "Download locations and formats for the dataset"
+msgstr "Download-Orte und Formate für den Datensatz"
+
+#. Default: "Edit"
+#: components/RichResultEditModal
+#: components/RichResultsWidget
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. Default: "Either URL or at least one social media link is required"
+#: types/Organization
+msgid "Either URL or at least one social media link is required"
+msgstr "Entweder eine URL oder mindestens ein Social Media Link werden benötigt."
+
+#. Default: "Either a job location (address) or remote work with applicant location requirements is required"
+#: types/JobPosting
+msgid "Either a job location (address) or remote work with applicant location requirements is required"
+msgstr "Entweder ein Arbeitsort (Adresse) oder Homeoffice mit Standortanforderungen für Bewerber ist erforderlich"
+
+#. Default: "Either email or address information is required"
+#: types/Organization
+msgid "Either email or address information is required"
+msgstr "Entweder eine Emailadresse oder eine Adresse werden benötigt."
+
+#. Default: "Email"
+#: types/Organization
+#: types/Person
+msgid "Email"
+msgstr "E-Mail"
+
+#. Default: "Employment Type"
+#: types/JobPosting
+msgid "Employment Type"
+msgstr "Art der Beschäftigung"
+
+#. Default: "End Date"
+#: types/Event
+#: types/ResearchProject
+msgid "End Date"
+msgstr "Enddatum"
+
+#. Default: "Error"
+#: components/RichResultEditModal
+msgid "Error"
+msgstr "Fehler"
+
+#. Default: "Estimated Cost"
+#: types/HowTo
+msgid "Estimated Cost"
+msgstr "Geschätzte Kosten"
+
+#. Default: "Estimated cost of supplies (e.g., "20 EUR" or "10-50 USD")"
+#: types/HowTo
+msgid "Estimated cost of supplies (e.g., "20 EUR" or "10-50 USD")"
+msgstr "Geschätzte Kosten für Material (z.B. "20 EUR" oder "10-50 USD")"
+
+#. Default: "Event"
+#: types/Event
+msgid "Event"
+msgstr "Veranstaltung"
+
+#. Default: "Event Description"
+#: types/Event
+msgid "Event Description"
+msgstr "Veranstaltungsbeschreibung"
+
+#. Default: "Event Image"
+#: types/Event
+msgid "Event Image"
+msgstr "Veranstaltungsbild"
+
+#. Default: "Event Name"
+#: types/Event
+msgid "Event Name"
+msgstr "Veranstaltungsname"
+
+#. Default: "Event Status"
+#: types/Event
+msgid "Event Status"
+msgstr "Veranstaltungsstatus"
+
+#. Default: "FAQ Page"
+#: types/FAQPage
+msgid "FAQ Page"
+msgstr "FAQ-Seite"
+
+#. Default: "For remote positions, at least one applicant location requirement (country) is required"
+#: types/JobPosting
+msgid "For remote positions, at least one applicant location requirement (country) is required"
+msgstr "Für Homeoffice-Positionen ist mindestens eine Standortanforderung (Land) erforderlich"
+
+#. Default: "Format"
+#: types/Dataset
+msgid "Format"
+msgstr "Format"
+
+#. Default: "Full-time"
+#: types/JobPosting
+msgid "Full-time"
+msgstr "Vollzeit"
+
+#. Default: "Funder Name"
+#: types/ResearchProject
+msgid "Funder Name"
+msgstr "Name des Geldgebers"
+
+#. Default: "Funder Type"
+#: types/ResearchProject
+msgid "Funder Type"
+msgstr "Typ des Geldgebers"
+
+#. Default: "Funder URL"
+#: types/ResearchProject
+msgid "Funder URL"
+msgstr "URL des Geldgebers"
+
+#. Default: "Funders"
+#: types/Dataset
+#: types/ResearchProject
+msgid "Funders"
+msgstr "Förderer"
+
+#. Default: "Funding"
+#: types/ResearchProject
+msgid "Funding"
+msgstr "Finanzierung"
+
+#. Default: "Funding Details"
+#: types/ResearchProject
+msgid "Funding Details"
+msgstr "Finanzierungsdetails"
+
+#. Default: "Geographic area covered by the dataset"
+#: types/Dataset
+msgid "Geographic area covered by the dataset"
+msgstr "Geografisches Gebiet, das vom Datensatz abgedeckt wird"
+
+#. Default: "Grant Identifier"
+#: types/ResearchProject
+msgid "Grant Identifier"
+msgstr "Förderkennzeichen"
+
+#. Default: "Grant Name"
+#: types/ResearchProject
+msgid "Grant Name"
+msgstr "Name der Förderung"
+
+#. Default: "Headline"
+#: types/Article
+#: types/NewsArticle
+msgid "Headline"
+msgstr "Überschrift"
+
+#. Default: "Hiring Organization"
+#: types/JobPosting
+msgid "Hiring Organization"
+msgstr "Einstellende Organisation"
+
+#. Default: "How-To"
+#: types/HowTo
+msgid "How-To"
+msgstr "Anleitung"
+
+#. Default: "How-To Description"
+#: types/HowTo
+msgid "How-To Description"
+msgstr "Anleitungsbeschreibung"
+
+#. Default: "How-To Image"
+#: types/HowTo
+msgid "How-To Image"
+msgstr "Anleitungsbild"
+
+#. Default: "How-To Name"
+#: types/HowTo
+msgid "How-To Name"
+msgstr "Anleitungsname"
+
+#. Default: "Identification"
+#: types/Dataset
+msgid "Identification"
+msgstr "Identifikation"
+
+#. Default: "Identifier"
+#: types/Dataset
+msgid "Identifier"
+msgstr "Kennung"
+
+#. Default: "Image"
+#: types/Person
+msgid "Image"
+msgstr "Bild"
+
+#. Default: "Image URL"
+#: types/Article
+#: types/NewsArticle
+msgid "Image URL"
+msgstr "Bild Url"
+
+#. Default: "Images"
+#: types/Article
+#: types/NewsArticle
+msgid "Images"
+msgstr "Bilder"
+
+#. Default: "In Stock"
+#: types/Event
+msgid "In Stock"
+msgstr "Verfügbar"
+
+#. Default: "Intern"
+#: types/JobPosting
+msgid "Intern"
+msgstr "Praktikum"
+
+#. Default: "Job Description"
+#: types/JobPosting
+msgid "Job Description"
+msgstr "Beschreibung der Arbeitsstelle"
+
+#. Default: "Job Location"
+#: types/JobPosting
+msgid "Job Location"
+msgstr "Ort der Arbeitsstelle"
+
+#. Default: "Job Posting"
+#: types/JobPosting
+msgid "Job Posting"
+msgstr "Stellenanzeige"
+
+#. Default: "Job Title"
+#: types/JobPosting
+#: types/Person
+msgid "Job Title"
+msgstr "Arbeitstelle Titel"
+
+#. Default: "Keywords"
+#: types/Dataset
+#: types/ResearchProject
+#: types/WebPage
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#. Default: "Keywords describing the page content (comma-separated)"
+#: types/WebPage
+msgid "Keywords describing the page content (comma-separated)"
+msgstr "Schlüsselwörter, die den Seiteninhalt beschreiben (kommagetrennt)"
+
+#. Default: "Keywords describing the research project (comma-separated)"
+#: types/ResearchProject
+msgid "Keywords describing the research project (comma-separated)"
+msgstr "Schlüsselwörter, die das Forschungsprojekt beschreiben (kommagetrennt)"
+
+#. Default: "Landing page URL describing the dataset"
+#: types/Dataset
+msgid "Landing page URL describing the dataset"
+msgstr "URL der Übersichtsseite, die den Datensatz beschreibt"
+
+#. Default: "Language"
+#: types/WebPage
+msgid "Language"
+msgstr "Sprache"
+
+#. Default: "Language of the page content (e.g., en, de, fr)"
+#: types/WebPage
+msgid "Language of the page content (e.g., en, de, fr)"
+msgstr "Sprache des Seiteninhalts (z.B. en, de, fr)"
+
+#. Default: "License"
+#: types/Dataset
+msgid "License"
+msgstr "Lizenz"
+
+#. Default: "List of frequently asked questions with answers"
+#: types/FAQPage
+msgid "List of frequently asked questions with answers"
+msgstr "Liste häufig gestellter Fragen mit Antworten"
+
+#. Default: "Location"
+#: types/Event
+#: types/JobPosting
+msgid "Location"
+msgstr "Ort"
+
+#. Default: "Logo"
+#: types/Organization
+msgid "Logo"
+msgstr "Logo"
+
+#. Default: "Lowest ticket price (0 if free)"
+#: types/Event
+msgid "Lowest ticket price (0 if free)"
+msgstr "Niedrigster Ticketpreis (0 wenn kostenlos)"
+
+#. Default: "Materials or supplies consumed when performing the instructions"
+#: types/HowTo
+msgid "Materials or supplies consumed when performing the instructions"
+msgstr "Materialien oder Verbrauchsmittel, die bei der Durchführung benötigt werden"
+
+#. Default: "Maximum Amount"
+#: types/JobPosting
+msgid "Maximum Amount"
+msgstr "Maximale Höhe"
+
+#. Default: "Measurement Technique"
+#: types/Dataset
+msgid "Measurement Technique"
+msgstr "Messmethode"
+
+#. Default: "Member Name"
+#: types/ResearchProject
+msgid "Member Name"
+msgstr "Name des Mitglieds"
+
+#. Default: "Member URL"
+#: types/ResearchProject
+msgid "Member URL"
+msgstr "URL des Mitglieds"
+
+#. Default: "Members"
+#: types/ResearchProject
+msgid "Members"
+msgstr "Mitglieder"
+
+#. Default: "Mentions"
+#: types/WebPage
+msgid "Mentions"
+msgstr "Erwähnungen"
+
+#. Default: "Methodology or technology used in data collection"
+#: types/Dataset
+msgid "Methodology or technology used in data collection"
+msgstr "Methodik oder Technologie zur Datenerhebung"
+
+#. Default: "Minimum Amount"
+#: types/JobPosting
+msgid "Minimum Amount"
+msgstr "Minimale Höhe"
+
+#. Default: "Name"
+#: types/Article
+#: types/Dataset
+#: types/NewsArticle
+#: types/Organization
+#: types/Person
+msgid "Name"
+msgstr "Name"
+
+#. Default: "Name of the repository containing this dataset"
+#: types/Dataset
+msgid "Name of the repository containing this dataset"
+msgstr "Name des Repositoriums, das diesen Datensatz enthält"
+
+#. Default: "Name of the venue or location"
+#: types/Event
+msgid "Name of the venue or location"
+msgstr "Name des Veranstaltungsortes"
+
+#. Default: "News Article"
+#: types/NewsArticle
+msgid "News Article"
+msgstr "Nachrichtenartikel"
+
+#. Default: "No Rich Results configured. Add one to improve SEO."
+#: components/RichResultsWidget
+msgid "No Rich Results configured. Add one to improve SEO."
+msgstr "Keine Rich Results eingestellt. Hinzufügen eines Rich Results verbessert SEO."
+
+#. Default: "No configuration set. Add content types to configure which Rich Result types are available."
+#: components/RichResultsConfigWidget
+msgid "No configuration set. Add content types to configure which Rich Result types are available."
+msgstr "Keine Konfiguration vorhanden. Fügen Sie Contenttypen hinzu um zu konfigurieren, welche Rich Result Typen auswählbar sind."
+
+#. Default: "Opens in new window"
+#: components/GoogleRichResultsTest
+msgid "Opens in new window"
+msgstr "Öffnet in neuem Fenster"
+
+#. Default: "Organization"
+#: types/Dataset
+#: types/NewsArticle
+#: types/Organization
+#: types/ResearchProject
+#: types/WebPage
+msgid "Organization"
+msgstr "Organisation"
+
+#. Default: "Organization Logo"
+#: types/JobPosting
+msgid "Organization Logo"
+msgstr "Logo der Organisation"
+
+#. Default: "Organization Name"
+#: types/JobPosting
+#: types/ResearchProject
+msgid "Organization Name"
+msgstr "Name der Organisation"
+
+#. Default: "Organization URL"
+#: types/ResearchProject
+msgid "Organization URL"
+msgstr "URL der Organisation"
+
+#. Default: "Organization Website"
+#: types/JobPosting
+msgid "Organization Website"
+msgstr "Webseite der Organisation"
+
+#. Default: "Organization or person hosting the event"
+#: types/Event
+msgid "Organization or person hosting the event"
+msgstr "Organisation oder Person, die die Veranstaltung ausrichtet"
+
+#. Default: "Organizations or persons providing funding for the project"
+#: types/ResearchProject
+msgid "Organizations or persons providing funding for the project"
+msgstr "Organisationen oder Personen, die das Projekt finanzieren"
+
+#. Default: "Organizations providing financial support"
+#: types/Dataset
+msgid "Organizations providing financial support"
+msgstr "Organisationen, die finanzielle Unterstützung bereitstellen"
+
+#. Default: "Organizer"
+#: types/Event
+msgid "Organizer"
+msgstr "Veranstalter"
+
+#. Default: "Organizer & Performers"
+#: types/Event
+msgid "Organizer & Performers"
+msgstr "Veranstalter & Mitwirkende"
+
+#. Default: "Organizer Name"
+#: types/Event
+msgid "Organizer Name"
+msgstr "Name des Veranstalters"
+
+#. Default: "Organizer URL"
+#: types/Event
+msgid "Organizer URL"
+msgstr "Veranstalter-URL"
+
+#. Default: "Original start date if event was rescheduled"
+#: types/Event
+msgid "Original start date if event was rescheduled"
+msgstr "Ursprüngliches Startdatum, falls die Veranstaltung verschoben wurde"
+
+#. Default: "Other"
+#: types/JobPosting
+msgid "Other"
+msgstr "Anderes"
+
+#. Default: "Other names or abbreviations the dataset is known by"
+#: types/Dataset
+msgid "Other names or abbreviations the dataset is known by"
+msgstr "Andere Namen oder Abkürzungen, unter denen der Datensatz bekannt ist"
+
+#. Default: "Page Description"
+#: types/WebPage
+msgid "Page Description"
+msgstr "Seitenbeschreibung"
+
+#. Default: "Page Image"
+#: types/WebPage
+msgid "Page Image"
+msgstr "Seitenbild"
+
+#. Default: "Page Name"
+#: types/WebPage
+msgid "Page Name"
+msgstr "Seitenname"
+
+#. Default: "Page URL"
+#: types/WebPage
+msgid "Page URL"
+msgstr "Seiten-URL"
+
+#. Default: "Parent Organization"
+#: types/ResearchProject
+msgid "Parent Organization"
+msgstr "Übergeordnete Organisation"
+
+#. Default: "Part Of"
+#: types/WebPage
+msgid "Part Of"
+msgstr "Teil von"
+
+#. Default: "Part-time"
+#: types/JobPosting
+msgid "Part-time"
+msgstr "Teilzeit"
+
+#. Default: "Per Day"
+#: types/JobPosting
+msgid "Per Day"
+msgstr "Pro Tag"
+
+#. Default: "Per Diem"
+#: types/JobPosting
+msgid "Per Diem"
+msgstr "Pro Tag (Tagessatz)"
+
+#. Default: "Per Hour"
+#: types/JobPosting
+msgid "Per Hour"
+msgstr "Pro Stunde"
+
+#. Default: "Per Month"
+#: types/JobPosting
+msgid "Per Month"
+msgstr "Pro Monat"
+
+#. Default: "Per Week"
+#: types/JobPosting
+msgid "Per Week"
+msgstr "Pro Woche"
+
+#. Default: "Per Year"
+#: types/JobPosting
+msgid "Per Year"
+msgstr "Pro Jahr"
+
+#. Default: "Perform Time"
+#: types/HowTo
+msgid "Perform Time"
+msgstr "Durchführungszeit"
+
+#. Default: "Performer Name"
+#: types/Event
+msgid "Performer Name"
+msgstr "Name des Mitwirkenden"
+
+#. Default: "Performer Type"
+#: types/Event
+msgid "Performer Type"
+msgstr "Typ des Mitwirkenden"
+
+#. Default: "Performers"
+#: types/Event
+msgid "Performers"
+msgstr "Mitwirkende"
+
+#. Default: "Performing Group"
+#: types/Event
+msgid "Performing Group"
+msgstr "Künstlergruppe"
+
+#. Default: "Period"
+#: types/JobPosting
+msgid "Period"
+msgstr "Zeitraum"
+
+#. Default: "Person"
+#: types/Dataset
+#: types/Event
+#: types/NewsArticle
+#: types/Person
+#: types/ResearchProject
+#: types/WebPage
+msgid "Person"
+msgstr "Person"
+
+#. Default: "Please fix the following errors:"
+#: components/ValidationErrorMessage
+msgid "Please fix the following errors:"
+msgstr "Bitte beheben Sie die folgenden Fehler:"
+
+#. Default: "Postal Code"
+#: types/Event
+#: types/JobPosting
+#: types/Organization
+#: types/Person
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#. Default: "Postponed"
+#: types/Event
+msgid "Postponed"
+msgstr "Verschoben"
+
+#. Default: "Pre-Order"
+#: types/Event
+msgid "Pre-Order"
+msgstr "Vorbestellung"
+
+#. Default: "Preparation Time"
+#: types/HowTo
+msgid "Preparation Time"
+msgstr "Vorbereitungszeit"
+
+#. Default: "Previous Start Date"
+#: types/Event
+msgid "Previous Start Date"
+msgstr "Vorheriges Startdatum"
+
+#. Default: "Profile URL"
+#: types/Organization
+msgid "Profile URL"
+msgstr "Profil-URL"
+
+#. Default: "Project Description"
+#: types/ResearchProject
+msgid "Project Description"
+msgstr "Projektbeschreibung"
+
+#. Default: "Project Image"
+#: types/ResearchProject
+msgid "Project Image"
+msgstr "Projektbild"
+
+#. Default: "Project Members"
+#: types/ResearchProject
+msgid "Project Members"
+msgstr "Projektmitglieder"
+
+#. Default: "Project Name"
+#: types/ResearchProject
+msgid "Project Name"
+msgstr "Projektname"
+
+#. Default: "Project URL"
+#: types/ResearchProject
+msgid "Project URL"
+msgstr "Projekt-URL"
+
+#. Default: "Publisher"
+#: types/WebPage
+msgid "Publisher"
+msgstr "Herausgeber"
+
+#. Default: "Publisher Logo URL"
+#: types/WebPage
+msgid "Publisher Logo URL"
+msgstr "Herausgeber-Logo-URL"
+
+#. Default: "Publisher Name"
+#: types/WebPage
+msgid "Publisher Name"
+msgstr "Name des Herausgebers"
+
+#. Default: "Publisher URL"
+#: types/WebPage
+msgid "Publisher URL"
+msgstr "Herausgeber-URL"
+
+#. Default: "Question"
+#: types/FAQPage
+msgid "Question"
+msgstr "Frage"
+
+#. Default: "Questions"
+#: types/FAQPage
+msgid "Questions"
+msgstr "Fragen"
+
+#. Default: "Remote/Home Office"
+#: types/JobPosting
+msgid "Remote/Home Office"
+msgstr "Homeoffice"
+
+#. Default: "Representative images for the article"
+#: types/Article
+msgid "Representative images for the article"
+msgstr "Repräsentative Bilder für den Artikel"
+
+#. Default: "Representative images for the news article"
+#: types/NewsArticle
+msgid "Representative images for the news article"
+msgstr "Repräsentative Bilder für den Nachrichtenartikel"
+
+#. Default: "Rescheduled"
+#: types/Event
+msgid "Rescheduled"
+msgstr "Neu terminiert"
+
+#. Default: "Research Project"
+#: types/ResearchProject
+msgid "Research Project"
+msgstr "Forschungsprojekt"
+
+#. Default: "Researchers and team members involved in the project"
+#: types/ResearchProject
+msgid "Researchers and team members involved in the project"
+msgstr "Forscher und Teammitglieder, die am Projekt beteiligt sind"
+
+#. Default: "Rich Results"
+#: blocks/RichResultsBlock/Edit
+#: blocks/RichResultsBlock/index
+#: components/RichResultsWidget
+msgid "Rich Results"
+msgstr "Rich Results"
+
+#. Default: "Rich Results (Structured Data)"
+#: blocks/RichResultsBlock/Edit
+msgid "Rich Results (Structured Data)"
+msgstr "Rich Results (Strukturierte Daten)"
+
+#. Default: "Rich Results Block"
+#: blocks/RichResultsBlock/Edit
+#: blocks/RichResultsBlock/schema
+msgid "Rich Results Block"
+msgstr "Rich Results Block"
+
+#. Default: "Rich Results Configuration"
+#: components/RichResultsConfigWidget
+msgid "Rich Results Configuration"
+msgstr "Rich Results Konfiguration"
+
+#. Default: "Role"
+#: types/ResearchProject
+msgid "Role"
+msgstr "Rolle"
+
+#. Default: "Role in the project (e.g., Principal Investigator)"
+#: types/ResearchProject
+msgid "Role in the project (e.g., Principal Investigator)"
+msgstr "Rolle im Projekt (z.B. Projektleiter)"
+
+#. Default: "Salary"
+#: types/JobPosting
+msgid "Salary"
+msgstr "Gehalt"
+
+#. Default: "Same As"
+#: types/Dataset
+#: types/ResearchProject
+msgid "Same As"
+msgstr "Identisch mit"
+
+#. Default: "Save"
+#: components/RichResultEditModal
+msgid "Save"
+msgstr "Speichern"
+
+#. Default: "Scheduled"
+#: types/Event
+msgid "Scheduled"
+msgstr "Geplant"
+
+#. Default: "Select Rich Result types..."
+#: components/RichResultsConfigWidget
+msgid "Select Rich Result types..."
+msgstr "Rich Result Typen auswählen ..."
+
+#. Default: "Select content type..."
+#: components/RichResultsConfigWidget
+msgid "Select content type..."
+msgstr "Content Typ auswählen ..."
+
+#. Default: "Select type..."
+#: components/RichResultsWidget
+msgid "Select type..."
+msgstr "Typen auswählen"
+
+#. Default: "Social Media"
+#: types/Organization
+#: types/Person
+msgid "Social Media"
+msgstr "Soziale Medien"
+
+#. Default: "Social Media Links"
+#: types/Organization
+#: types/Person
+msgid "Social Media Links"
+msgstr "Social-Media-Links"
+
+#. Default: "Sold Out"
+#: types/Event
+msgid "Sold Out"
+msgstr "Ausverkauft"
+
+#. Default: "Spatial Coverage"
+#: types/Dataset
+msgid "Spatial Coverage"
+msgstr "Räumliche Abdeckung"
+
+#. Default: "Specific data variables or measurements (comma-separated)"
+#: types/Dataset
+msgid "Specific data variables or measurements (comma-separated)"
+msgstr "Spezifische Datenvariablen oder Messungen (kommagetrennt)"
+
+#. Default: "Start Date"
+#: types/Event
+#: types/ResearchProject
+msgid "Start Date"
+msgstr "Startdatum"
+
+#. Default: "State/Region"
+#: types/Event
+#: types/JobPosting
+msgid "State/Region"
+msgstr "Bundesland/Region"
+
+#. Default: "Step Image"
+#: types/HowTo
+msgid "Step Image"
+msgstr "Schrittbild"
+
+#. Default: "Step Instructions"
+#: types/HowTo
+msgid "Step Instructions"
+msgstr "Schrittanweisungen"
+
+#. Default: "Step Name"
+#: types/HowTo
+msgid "Step Name"
+msgstr "Schrittname"
+
+#. Default: "Steps"
+#: types/HowTo
+msgid "Steps"
+msgstr "Schritte"
+
+#. Default: "Street Address"
+#: types/Event
+#: types/JobPosting
+#: types/Organization
+#: types/Person
+msgid "Street Address"
+msgstr "Straße"
+
+#. Default: "Subject terms summarizing the dataset (comma-separated)"
+#: types/Dataset
+msgid "Subject terms summarizing the dataset (comma-separated)"
+msgstr "Begriffe, die den Datensatz zusammenfassen (kommagetrennt)"
+
+#. Default: "Supplies"
+#: types/HowTo
+msgid "Supplies"
+msgstr "Materialien"
+
+#. Default: "Supplies & Tools"
+#: types/HowTo
+msgid "Supplies & Tools"
+msgstr "Materialien & Werkzeuge"
+
+#. Default: "Supply Name"
+#: types/HowTo
+msgid "Supply Name"
+msgstr "Materialname"
+
+#. Default: "Telephone"
+#: types/Organization
+#: types/Person
+msgid "Telephone"
+msgstr "Telefonnummer"
+
+#. Default: "Temporal Coverage"
+#: types/Dataset
+msgid "Temporal Coverage"
+msgstr "Zeitliche Abdeckung"
+
+#. Default: "Temporary"
+#: types/JobPosting
+msgid "Temporary"
+msgstr "Temporär"
+
+#. Default: "Test with Google"
+#: components/GoogleRichResultsTest
+msgid "Test with Google"
+msgstr "Mit Google testen"
+
+#. Default: "The URL of the organization website"
+#: types/Organization
+msgid "The URL of the organization website"
+msgstr "Die URL der Organisations Webseite"
+
+#. Default: "The URL of the person's website or profile"
+#: types/Person
+msgid "The URL of the person's website or profile"
+msgstr "Die URL der Website der Person oder des Profils"
+
+#. Default: "The author(s) of this web page"
+#: types/WebPage
+msgid "The author(s) of this web page"
+msgstr "Der/die Autor(en) dieser Webseite"
+
+#. Default: "The canonical URL of this web page"
+#: types/WebPage
+msgid "The canonical URL of this web page"
+msgstr "Die kanonische URL dieser Webseite"
+
+#. Default: "The date when the job posting expires"
+#: types/JobPosting
+msgid "The date when the job posting expires"
+msgstr "Datum wenn dass Angebot abläuft"
+
+#. Default: "The detailed instructions for this step"
+#: types/HowTo
+msgid "The detailed instructions for this step"
+msgstr "Die detaillierten Anweisungen für diesen Schritt"
+
+#. Default: "The full answer to the question (HTML allowed)"
+#: types/FAQPage
+msgid "The full answer to the question (HTML allowed)"
+msgstr "Die vollständige Antwort auf die Frage (HTML erlaubt)"
+
+#. Default: "The full name of the person"
+#: types/Person
+msgid "The full name of the person"
+msgstr "Der gesamte Name der Person"
+
+#. Default: "The full text of the question"
+#: types/FAQPage
+msgid "The full text of the question"
+msgstr "Der vollständige Text der Frage"
+
+#. Default: "The full title of the event"
+#: types/Event
+msgid "The full title of the event"
+msgstr "Der vollständige Titel der Veranstaltung"
+
+#. Default: "The headline of the article (max 110 characters recommended)"
+#: types/Article
+msgid "The headline of the article (max 110 characters recommended)"
+msgstr "Die Überschrift des Artikels (max 110 Zeichen empfohlen)"
+
+#. Default: "The headline of the news article (max 110 characters recommended)"
+#: types/NewsArticle
+msgid "The headline of the news article (max 110 characters recommended)"
+msgstr "Die Überschrift des Nachrichtenartikels (max 110 Zeichen empfohlen)"
+
+#. Default: "The name of the organization"
+#: types/Organization
+msgid "The name of the organization"
+msgstr "Name der Organisation"
+
+#. Default: "The name of the research project"
+#: types/ResearchProject
+msgid "The name of the research project"
+msgstr "Der Name des Forschungsprojekts"
+
+#. Default: "The name or title of the web page"
+#: types/WebPage
+msgid "The name or title of the web page"
+msgstr "Der Name oder Titel der Webseite"
+
+#. Default: "The organization hosting this research project"
+#: types/ResearchProject
+msgid "The organization hosting this research project"
+msgstr "Die Organisation, die dieses Forschungsprojekt beherbergt"
+
+#. Default: "The organization publishing this page"
+#: types/WebPage
+msgid "The organization publishing this page"
+msgstr "Die Organisation, die diese Seite veröffentlicht"
+
+#. Default: "The party holding the copyright"
+#: types/WebPage
+msgid "The party holding the copyright"
+msgstr "Der Inhaber des Urheberrechts"
+
+#. Default: "The person's job title or position"
+#: types/Person
+msgid "The person's job title or position"
+msgstr "Titel oder Position der Person"
+
+#. Default: "The primary topic or subject of this page"
+#: types/WebPage
+msgid "The primary topic or subject of this page"
+msgstr "Das Hauptthema dieser Seite"
+
+#. Default: "The quantity produced (e.g., "1 birdhouse" or "4 servings")"
+#: types/HowTo
+msgid "The quantity produced (e.g., "1 birdhouse" or "4 servings")"
+msgstr "Die produzierte Menge (z.B. "1 Vogelhaus" oder "4 Portionen")"
+
+#. Default: "The step-by-step instructions"
+#: types/HowTo
+msgid "The step-by-step instructions"
+msgstr "Die Schritt-für-Schritt-Anleitung"
+
+#. Default: "The title of the how-to instructions"
+#: types/HowTo
+msgid "The title of the how-to instructions"
+msgstr "Der Titel der Anleitung"
+
+#. Default: "The title of the job position"
+#: types/JobPosting
+msgid "The title of the job position"
+msgstr "Die Stellenbezeichnung"
+
+#. Default: "The website this page belongs to"
+#: types/WebPage
+msgid "The website this page belongs to"
+msgstr "Die Website, zu der diese Seite gehört"
+
+#. Default: "The year the copyright was established"
+#: types/WebPage
+msgid "The year the copyright was established"
+msgstr "Das Jahr, in dem das Urheberrecht begründet wurde"
+
+#. Default: "There were some errors"
+#: components/RichResultEditModal
+msgid "There were some errors"
+msgstr "Es gab Fehler."
+
+#. Default: "This field is required"
+#: helpers/Validation
+msgid "This field is required"
+msgstr "Notwendige Eingabe fehlt"
+
+#. Default: "This is a 100% remote/home office position"
+#: types/JobPosting
+msgid "This is a 100% remote/home office position"
+msgstr "Diese Position ist zu 100% Homeoffice"
+
+#. Default: "Ticket Availability"
+#: types/Event
+msgid "Ticket Availability"
+msgstr "Ticketverfügbarkeit"
+
+#. Default: "Ticket Price"
+#: types/Event
+msgid "Ticket Price"
+msgstr "Ticketpreis"
+
+#. Default: "Ticket URL"
+#: types/Event
+msgid "Ticket URL"
+msgstr "Ticket-URL"
+
+#. Default: "Tickets"
+#: types/Event
+msgid "Tickets"
+msgstr "Tickets"
+
+#. Default: "Time & Cost"
+#: types/HowTo
+msgid "Time & Cost"
+msgstr "Zeit & Kosten"
+
+#. Default: "Time period covered (ISO 8601 format, e.g., 2020-01-01/2023-12-31)"
+#: types/Dataset
+msgid "Time period covered (ISO 8601 format, e.g., 2020-01-01/2023-12-31)"
+msgstr "Abgedeckter Zeitraum (ISO 8601 Format, z.B. 2020-01-01/2023-12-31)"
+
+#. Default: "Time to perform the instructions (ISO 8601 duration)"
+#: types/HowTo
+msgid "Time to perform the instructions (ISO 8601 duration)"
+msgstr "Zeit zur Durchführung der Anleitung (ISO 8601 Dauer)"
+
+#. Default: "Time to prepare before starting (ISO 8601 duration)"
+#: types/HowTo
+msgid "Time to prepare before starting (ISO 8601 duration)"
+msgstr "Vorbereitungszeit vor dem Start (ISO 8601 Dauer)"
+
+#. Default: "Tool Name"
+#: types/HowTo
+msgid "Tool Name"
+msgstr "Werkzeugname"
+
+#. Default: "Tools"
+#: types/HowTo
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#. Default: "Tools used (but not consumed) when performing the instructions"
+#: types/HowTo
+msgid "Tools used (but not consumed) when performing the instructions"
+msgstr "Werkzeuge, die bei der Durchführung verwendet (aber nicht verbraucht) werden"
+
+#. Default: "Topics or entities mentioned on this page (comma-separated)"
+#: types/WebPage
+msgid "Topics or entities mentioned on this page (comma-separated)"
+msgstr "Themen oder Entitäten, die auf dieser Seite erwähnt werden (kommagetrennt)"
+
+#. Default: "Total Time"
+#: types/HowTo
+msgid "Total Time"
+msgstr "Gesamtzeit"
+
+#. Default: "Total time to complete (ISO 8601 duration, e.g., PT30M for 30 minutes)"
+#: types/HowTo
+msgid "Total time to complete (ISO 8601 duration, e.g., PT30M for 30 minutes)"
+msgstr "Gesamtzeit zur Fertigstellung (ISO 8601 Dauer, z.B. PT30M für 30 Minuten)"
+
+#. Default: "Type"
+#: types/Dataset
+msgid "Type"
+msgstr "Typ"
+
+#. Default: "Type of employment (Full-time, Part-time, etc.)"
+#: types/JobPosting
+msgid "Type of employment (Full-time, Part-time, etc.)"
+msgstr "Art der Beschäftigung (Vollzeit, Teilzeit usw.)"
+
+#. Default: "URL"
+#: types/Article
+#: types/Dataset
+#: types/NewsArticle
+#: types/Organization
+#: types/Person
+#: types/ResearchProject
+msgid "URL"
+msgstr "URL"
+
+#. Default: "URL of an image for the event"
+#: types/Event
+msgid "URL of an image for the event"
+msgstr "URL eines Bildes für die Veranstaltung"
+
+#. Default: "URL of an image for the how-to"
+#: types/HowTo
+msgid "URL of an image for the how-to"
+msgstr "URL eines Bildes für die Anleitung"
+
+#. Default: "URL of an image for this step (optional)"
+#: types/HowTo
+msgid "URL of an image for this step (optional)"
+msgstr "URL eines Bildes für diesen Schritt (optional)"
+
+#. Default: "URL of an image representing the page"
+#: types/WebPage
+msgid "URL of an image representing the page"
+msgstr "URL eines Bildes, das die Seite repräsentiert"
+
+#. Default: "URL of an image representing the project"
+#: types/ResearchProject
+msgid "URL of an image representing the project"
+msgstr "URL eines Bildes, das das Projekt repräsentiert"
+
+#. Default: "URL of the data catalog"
+#: types/Dataset
+msgid "URL of the data catalog"
+msgstr "URL des Datenkatalogs"
+
+#. Default: "URL of the organization logo"
+#: types/Organization
+msgid "URL of the organization logo"
+msgstr "URL des Organisationslogos"
+
+#. Default: "URL of the person's photo"
+#: types/Person
+msgid "URL of the person's photo"
+msgstr "URL des Fotos der Person"
+
+#. Default: "URL of the research project website"
+#: types/ResearchProject
+msgid "URL of the research project website"
+msgstr "URL der Forschungsprojekt-Webseite"
+
+#. Default: "URL to the distribution license"
+#: types/Dataset
+msgid "URL to the distribution license"
+msgstr "URL zur Lizenz"
+
+#. Default: "URL where tickets can be purchased"
+#: types/Event
+msgid "URL where tickets can be purchased"
+msgstr "URL, unter der Tickets gekauft werden können"
+
+#. Default: "URLs of other pages about this project (e.g., social media, databases)"
+#: types/ResearchProject
+msgid "URLs of other pages about this project (e.g., social media, databases)"
+msgstr "URLs anderer Seiten über dieses Projekt (z.B. Social Media, Datenbanken)"
+
+#. Default: "URLs of social media profiles (Facebook, Twitter, LinkedIn, etc.)"
+#: types/Organization
+#: types/Person
+msgid "URLs of social media profiles (Facebook, Twitter, LinkedIn, etc.)"
+msgstr "URLSs der SocialMedia Profile  (Facebook, Twitter, LinkedIn, ...)"
+
+#. Default: "Unable to load Rich Results configuration."
+#: components/RichResultsWidget
+msgid "Unable to load Rich Results configuration."
+msgstr "Fehler beim Laden der Rich Result Konfiguration aufgetreten."
+
+#. Default: "Unique identifier for the grant (e.g., grant number)"
+#: types/ResearchProject
+msgid "Unique identifier for the grant (e.g., grant number)"
+msgstr "Eindeutige Kennung der Förderung (z.B. Förderkennzeichen)"
+
+#. Default: "Valid Through"
+#: types/JobPosting
+msgid "Valid Through"
+msgstr "Gültig bis"
+
+#. Default: "Variables Measured"
+#: types/Dataset
+msgid "Variables Measured"
+msgstr "Gemessene Variablen"
+
+#. Default: "Venue Name"
+#: types/Event
+msgid "Venue Name"
+msgstr "Name des Veranstaltungsortes"
+
+#. Default: "Version"
+#: types/Dataset
+msgid "Version"
+msgstr "Version"
+
+#. Default: "Version identifier or number"
+#: types/Dataset
+msgid "Version identifier or number"
+msgstr "Versionskennung oder -nummer"
+
+#. Default: "Volunteer"
+#: types/JobPosting
+msgid "Volunteer"
+msgstr "Ehrenamt"
+
+#. Default: "Web Page"
+#: types/WebPage
+msgid "Web Page"
+msgstr "Webseite"
+
+#. Default: "Website Name"
+#: types/WebPage
+msgid "Website Name"
+msgstr "Website-Name"
+
+#. Default: "Website URL"
+#: types/WebPage
+msgid "Website URL"
+msgstr "Website-URL"
+
+#. Default: "When the event ends (date and time)"
+#: types/Event
+msgid "When the event ends (date and time)"
+msgstr "Wann die Veranstaltung endet (Datum und Uhrzeit)"
+
+#. Default: "When the event starts (date and time)"
+#: types/Event
+msgid "When the event starts (date and time)"
+msgstr "Wann die Veranstaltung beginnt (Datum und Uhrzeit)"
+
+#. Default: "When the job was posted"
+#: types/JobPosting
+msgid "When the job was posted"
+msgstr "Wann die Arbeitstelle ausgeschrieben wurde"
+
+#. Default: "When the research project ends or ended"
+#: types/ResearchProject
+msgid "When the research project ends or ended"
+msgstr "Wann das Forschungsprojekt endet oder endete"
+
+#. Default: "When the research project started"
+#: types/ResearchProject
+msgid "When the research project started"
+msgstr "Wann das Forschungsprojekt begann"
+
+#. Default: "When this page was first published"
+#: types/WebPage
+msgid "When this page was first published"
+msgstr "Wann diese Seite erstmals veröffentlicht wurde"
+
+#. Default: "When this page was last modified"
+#: types/WebPage
+msgid "When this page was last modified"
+msgstr "Wann diese Seite zuletzt geändert wurde"
+
+#. Default: "Whether the dataset is available without payment"
+#: types/Dataset
+msgid "Whether the dataset is available without payment"
+msgstr "Ob der Datensatz kostenlos verfügbar ist"
+
+#. Default: "Yield"
+#: types/HowTo
+msgid "Yield"
+msgstr "Ertrag"
+
+#. Default: "You do not have permission to edit Rich Results."
+#: components/RichResultsWidget
+msgid "You do not have permission to edit Rich Results."
+msgstr "Sie haben keine Rechte die Rich Results zu editieren."
