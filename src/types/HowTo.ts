@@ -1,6 +1,5 @@
 import { defineMessages } from 'react-intl';
 import type { IntlShape } from 'react-intl';
-import type { ConfigType } from '@plone/registry';
 import { registerRichResultType } from '../registry';
 import { v4 as uuid } from 'uuid';
 
@@ -506,7 +505,7 @@ export const jsonLdToHowToForm = (jsonLd: any) => {
  * The structured data is still valid schema.org and may be used by other
  * search engines or services.
  */
-export const registerHowToRichResultType = (config: ConfigType) => {
+export const registerHowToRichResultType = (config: any) => {
   config = registerRichResultType(config, {
     id: 'HowTo',
     title: 'How-To',

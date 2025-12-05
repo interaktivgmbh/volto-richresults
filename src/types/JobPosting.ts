@@ -1,6 +1,5 @@
 import { defineMessages } from 'react-intl';
 import type { IntlShape } from 'react-intl';
-import type { ConfigType } from '@plone/registry';
 import { registerRichResultType } from '../registry';
 import {
   convertStringToSlate,
@@ -658,7 +657,7 @@ export const validateJobPosting = (
  *
  * This registers the type for volto-richresults.
  */
-export const registerJobPostingRichResultType = (config: ConfigType) => {
+export const registerJobPostingRichResultType = (config: any) => {
   config = registerRichResultType(config, {
     id: 'JobPosting',
     title: 'Job Posting',

@@ -1,4 +1,3 @@
-import type { ConfigType } from '@plone/registry';
 import { registerArticleRichResultType } from './types/Article';
 import { registerOrganizationRichResultType } from './types/Organization';
 import { registerPersonRichResultType } from './types/Person';
@@ -25,7 +24,7 @@ import reducers from './reducers';
  * in Volto content edit forms and automatically renders JSON-LD in page <head>.
  * Also provides a block for editing Rich Results directly in content.
  */
-const applyConfig = (config: ConfigType) => {
+const applyConfig = (config: any) => {
   // Register Rich Result types (Article, BreadcrumbList, Event, etc.)
   config = registerArticleRichResultType(config);
   config = registerOrganizationRichResultType(config);

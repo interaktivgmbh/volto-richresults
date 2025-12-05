@@ -1,17 +1,110 @@
 import { defineMessages } from 'react-intl';
-import {
-  urlValidator,
-  emailValidator,
-  minLengthValidator,
-  maxLengthValidator,
-} from '@plone/volto/helpers/FormValidation/validators';
 
 const messages = defineMessages({
   required: {
     id: 'This field is required',
     defaultMessage: 'This field is required',
   },
+  invalidUrl: {
+    id: 'Please enter a valid URL',
+    defaultMessage: 'Please enter a valid URL',
+  },
+  invalidEmail: {
+    id: 'Please enter a valid email address',
+    defaultMessage: 'Please enter a valid email address',
+  },
+  minLength: {
+    id: 'Minimum length is {minLength}',
+    defaultMessage: 'Minimum length is {minLength}',
+  },
+  maxLength: {
+    id: 'Maximum length is {maxLength}',
+    defaultMessage: 'Maximum length is {maxLength}',
+  },
 });
+
+/**
+ * Simple URL validator
+ * In Volto 16, the individual validators are not exported, so we implement our own
+ */
+const urlValidator = ({
+  value,
+  formatMessage,
+}: {
+  value: string;
+  field: any;
+  formData: any;
+  formatMessage: any;
+}): string | null => {
+  if (!value) return null;
+  try {
+    new URL(value);
+    return null;
+  } catch {
+    return formatMessage(messages.invalidUrl);
+  }
+};
+
+/**
+ * Simple email validator
+ */
+const emailValidator = ({
+  value,
+  formatMessage,
+}: {
+  value: string;
+  field: any;
+  formData: any;
+  formatMessage: any;
+}): string | null => {
+  if (!value) return null;
+  // Basic email regex pattern
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(value)) {
+    return formatMessage(messages.invalidEmail);
+  }
+  return null;
+};
+
+/**
+ * Min length validator
+ */
+const minLengthValidator = ({
+  value,
+  field,
+  formatMessage,
+}: {
+  value: string;
+  field: any;
+  formData: any;
+  formatMessage: any;
+}): string | null => {
+  if (!value || !field.minLength) return null;
+  if (value.length < field.minLength) {
+    return formatMessage(messages.minLength, { minLength: field.minLength });
+  }
+  return null;
+};
+
+/**
+ * Max length validator
+ */
+const maxLengthValidator = ({
+  value,
+  field,
+  formatMessage,
+}: {
+  value: string;
+  field: any;
+  formData: any;
+  formatMessage: any;
+}): string | null => {
+  if (!value || !field.maxLength) return null;
+  if (value.length > field.maxLength) {
+    return formatMessage(messages.maxLength, { maxLength: field.maxLength });
+  }
+  return null;
+};
 
 /**
  * Validation utilities

@@ -12,7 +12,7 @@ import Icon from '@plone/volto/components/theme/Icon/Icon';
 import FormFieldWrapper from '@plone/volto/components/manage/Widgets/FormFieldWrapper';
 import { useDispatch, useSelector } from 'react-redux';
 import { getVocabulary } from '@plone/volto/actions/vocabularies/vocabularies';
-import config from '@plone/registry';
+import config from '@plone/volto/registry';
 import deleteSVG from '@plone/volto/icons/delete.svg';
 import addSVG from '@plone/volto/icons/add.svg';
 

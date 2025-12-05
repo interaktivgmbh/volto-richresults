@@ -1,7 +1,7 @@
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import SidebarPortal from '@plone/volto/components/manage/Sidebar/SidebarPortal';
-import BlockDataForm from '@plone/volto/components/manage/Form/BlockDataForm';
+import { BlockDataForm } from '@plone/volto/components';
 import RichResultsWidget from '../../components/RichResultsWidget';
 import Schema from './schema';
 import './styles.css';

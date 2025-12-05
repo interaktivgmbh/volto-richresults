@@ -1,6 +1,5 @@
 import { defineMessages } from 'react-intl';
 import type { IntlShape } from 'react-intl';
-import type { ConfigType } from '@plone/registry';
 import { registerRichResultType } from '../registry';
 import { v4 as uuid } from 'uuid';
 
@@ -669,7 +668,7 @@ export const jsonLdToResearchProjectForm = (jsonLd: any) => {
  * supported by Google for rich results. The structured data is still
  * valid and may be used by other search engines or services.
  */
-export const registerResearchProjectRichResultType = (config: ConfigType) => {
+export const registerResearchProjectRichResultType = (config: any) => {
   config = registerRichResultType(config, {
     id: 'ResearchProject',
     title: 'Research Project',

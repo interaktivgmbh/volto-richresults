@@ -5,7 +5,7 @@ import Icon from '@plone/volto/components/theme/Icon/Icon';
 import FormFieldWrapper from '@plone/volto/components/manage/Widgets/FormFieldWrapper';
 import { useDispatch, useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
-import config from '@plone/registry';
+import config from '@plone/volto/registry';
 import { getAvailableRichResultTypes } from '../registry';
 import { getRichResultsConfig } from '../actions/richresults';
 import RichResultEditModal from './RichResultEditModal';

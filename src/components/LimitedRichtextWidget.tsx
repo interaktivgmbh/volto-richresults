@@ -4,7 +4,7 @@ import configureStore from 'redux-mock-store';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider, useSelector } from 'react-redux';
 import FormFieldWrapper from '@plone/volto/components/manage/Widgets/FormFieldWrapper';
-import config from '@plone/registry';
+import config from '@plone/volto/registry';
 import SlateEditor from '@plone/volto-slate/editor/SlateEditor';
 import { serializeNodes } from '@plone/volto-slate/editor/render';
 import deserialize from '@plone/volto-slate/editor/deserialize';

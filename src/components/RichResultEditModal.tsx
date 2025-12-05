@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import { Modal, Button, Message } from 'semantic-ui-react';
 import { toast } from 'react-toastify';
-import Form from '@plone/volto/components/manage/Form/Form';
+import { Form } from '@plone/volto/components';
 import Toast from '@plone/volto/components/manage/Toast/Toast';
 
-import config from '@plone/registry';
+import config from '@plone/volto/registry';
 import { validateFields } from '../helpers/Validation';
 import ValidationErrorMessage from './ValidationErrorMessage';
 

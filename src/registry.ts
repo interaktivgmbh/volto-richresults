@@ -1,5 +1,3 @@
-import type { ConfigType } from '@plone/registry';
-
 /**
  * Rich Result Type Configuration
  */
@@ -42,9 +40,9 @@ export interface RichResultTypeConfig {
  * ```
  */
 export const registerRichResultType = (
-  config: ConfigType,
+  config: any,
   typeConfig: RichResultTypeConfig,
-): ConfigType => {
+): any => {
   // Initialize richresults registry if it doesn't exist
   if (!config.settings.richresults) {
     config.settings = {
@@ -70,7 +68,7 @@ export const registerRichResultType = (
  * @returns Array of available Rich Result type configurations
  */
 export const getAvailableRichResultTypes = (
-  config: ConfigType,
+  config: any,
   portalType: string,
   selectableTypes?: Record<string, string[]>,
 ): RichResultTypeConfig[] => {

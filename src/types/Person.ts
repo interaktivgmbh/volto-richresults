@@ -1,6 +1,5 @@
 import { defineMessages } from 'react-intl';
 import type { IntlShape } from 'react-intl';
-import type { ConfigType } from '@plone/registry';
 import { registerRichResultType } from '../registry';
 
 const messages = defineMessages({
@@ -354,7 +353,7 @@ export const jsonLdToPersonForm = (jsonLd: any) => {
  * This registers the type for volto-richresults.
  * but titled 'Person' for user clarity.
  */
-export const registerPersonRichResultType = (config: ConfigType) => {
+export const registerPersonRichResultType = (config: any) => {
   config = registerRichResultType(config, {
     id: 'Person',
     title: 'Person',
