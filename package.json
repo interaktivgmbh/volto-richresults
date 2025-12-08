@@ -1,6 +1,6 @@
 {
   "name": "@interaktiv/volto-richresults",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Volto addon for managing Google Rich Results (structured data / schema.org JSON-LD) in Plone 6",
   "main": "src/index.ts",
   "author": "Interaktiv GmbH <support@interaktiv.de>",
@@ -29,7 +29,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "@plone/volto": "^18.0.0"
+    "@plone/volto": "^16.0.0"
   },
   "devDependencies": {
     "@plone/scripts": "*",
