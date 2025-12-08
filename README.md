@@ -4,6 +4,8 @@ A Volto addon for managing Google Rich Results (structured data / schema.org JSO
 
 This addon provides a comprehensive solution for adding and managing structured data on your Plone/Volto site, improving SEO and enabling rich search result features in Google and other search engines.
 
+> **Note:** This is the Volto 16 version of the addon. For Volto 18+, please use the `main` branch.
+
 ## Features
 
 - Custom widget for editing Rich Results directly in content
