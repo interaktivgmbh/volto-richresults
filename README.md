@@ -177,7 +177,7 @@ pnpm build
 
 ## License
 
-MIT
+GPL version 2
 
 ## Author
 
