@@ -1407,6 +1407,11 @@ msgstr "Das Jahr, in dem das Urheberrecht begründet wurde"
 msgid "There were some errors"
 msgstr "Es gab Fehler."
 
+#. Default: "This block is only visible in edit mode."
+#: blocks/RichResultsBlock/Edit
+msgid "This block is only visible in edit mode."
+msgstr "Dieser Block ist nur im Bearbeitungsmodus sichtbar."
+
 #. Default: "This field is required"
 #: helpers/Validation
 msgid "This field is required"

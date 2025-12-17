@@ -1407,6 +1407,11 @@ msgstr ""
 msgid "There were some errors"
 msgstr ""
 
+#. Default: "This block is only visible in edit mode."
+#: blocks/RichResultsBlock/Edit
+msgid "This block is only visible in edit mode."
+msgstr ""
+
 #. Default: "This field is required"
 #: helpers/Validation
 msgid "This field is required"

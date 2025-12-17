@@ -23,6 +23,12 @@
   font-size: 0.9rem;
 }
 
+.rich-results-block .block-header .edit-mode-info {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #856404;
+}
+
 .rich-results-block .ui.warning.message {
   margin-bottom: 1rem;
 }

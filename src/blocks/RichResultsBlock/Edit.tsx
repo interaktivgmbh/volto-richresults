@@ -28,6 +28,10 @@ const messages = defineMessages({
     id: 'Rich Results Block',
     defaultMessage: 'Rich Results Block',
   },
+  editModeOnly: {
+    id: 'This block is only visible in edit mode.',
+    defaultMessage: 'This block is only visible in edit mode.',
+  },
 });
 
 interface EditProps {
@@ -67,6 +71,9 @@ const Edit: React.FC<EditProps> = ({
         <div className="block-header">
           <h3>{intl.formatMessage(messages.title)}</h3>
           <p>{intl.formatMessage(messages.description)}</p>
+          <p className="edit-mode-info">
+            {intl.formatMessage(messages.editModeOnly)}
+          </p>
         </div>
 
         <RichResultsWidget
