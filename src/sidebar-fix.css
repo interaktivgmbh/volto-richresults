@@ -1,0 +1,6 @@
+/* Fix for sidebar z-index when used from modal (reference browser)
+   The sidebar gets a higher z-index only when actively being used (after enter animation)
+   This matches the Volto 18 fix */
+.sidebar-container-enter-done {
+  z-index: 1150 !important;
+}

@@ -1,3 +1,4 @@
+import './sidebar-fix.css';
 import { registerArticleRichResultType } from './types/Article';
 import { registerOrganizationRichResultType } from './types/Organization';
 import { registerPersonRichResultType } from './types/Person';
